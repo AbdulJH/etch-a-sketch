@@ -6,7 +6,7 @@
   display: grid;
   grid-template-columns: repeat(16, 25px [col-start]);
   justify-content: center;
-  margin-top: 75px;
+  margin-top: 0px;
 }
 
 /*.container>div does nothing*/
@@ -30,5 +30,16 @@ h1 {
   justify-content: center;
   font-style: italic;
   font-size: 45px;
+  margin-top: 0px;
+  margin: 0;
+  padding: 0;
+}
+h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 100px;
 }
 
