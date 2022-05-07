@@ -2,7 +2,7 @@ const container = document.querySelector(".container");
 
 
 function createGrid(rows, cols) {
-  for (let i=0; i<(16*16); i++) {
+  for (let i=0; i<(rows*cols); i++) {
     let div = document.createElement("div");
     div.style.cssText = "border: 1px solid black; height: 25px; width: 25px;";
     div.addEventListener("mouseover", function() {
@@ -18,6 +18,6 @@ function randomColor() {
 
 }
 
-createGrid(8,8);
+createGrid(16,16);
 
 
